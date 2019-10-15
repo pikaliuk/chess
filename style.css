@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+
+}
+
+.playing-bord{
+
+	margin: 0px auto;
+	position: relative;
+	max-width: 100vh;
+	background-size: cover;
+	background:url('img/background/background.gif')no-repeat;
+
+}
+
+.square-content {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	}
+	
+.playing-bord:before {
+	content: '';
+	padding-top: 100%;
+	display: block;
+}
+
+.chess {
+	display: inline-block;
+}
+img {
+	left: 0;
+	bottom: 0;
+	height: auto;
+    width: 12%;
+    position: absolute;
+}
+
+.b {top: 36px; }
+
+.castle {
+	left: 40px;   
+}
+
+.knight {
+	left:121px;
+}
+
+.bishop {
+	left: 207px;
+}
+
+.queen {
+	left: 291px
+}
+
+.b2 {top: 117px;}
+
+.king {
+	left: 373px;
+}
+
+.bishop2 {
+	left: 455px;
+}
+
+.knight2 {
+	left: 536px;
+}
+.castle2 {
+	left: 620px;
+}
+
+.pawn1 {
+	left:37px;
+}
+
+.pawn2 {
+	left: 121px;
+}
+
+.pawn3 {
+	left: 205px;
+}
+
+.pawn4 {
+	left: 289px;
+}
+
+.pawn5 {
+	left: 373px;
+}
+
+.pawn6 {
+	left: 457px;
+} 
+
+.pawn7 {
+	left: 536px;
+}
+
+.pawn8 {
+	left: 619px;
+}
+
+.w {
+	bottom: 102px;
+}
+
+.w2 {
+	bottom: 18px;
+}
